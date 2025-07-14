@@ -1,0 +1,60 @@
+# SMART Debt Tracker - Dependencies and Requirements
+
+## Browser Requirements
+- Modern web browser with JavaScript ES6+ support
+- Minimum browser versions:
+  - Chrome 88+
+  - Firefox 85+
+  - Safari 14+
+  - Edge 88+
+
+## CDN Dependencies (Automatically loaded)
+React@18.2.0                    # Core React library
+ReactDOM@18.2.0                 # React DOM rendering
+Babel Standalone@7.23.0         # JSX transpilation
+Recharts@2.8.0                  # Chart visualization library
+Tailwind CSS@3.3.0             # Utility-first CSS framework
+
+## Local Development Server (Choose one)
+# Python (built-in)
+python -m http.server 8000
+
+# Node.js (requires Node.js installation)
+npx http-server
+
+# VS Code Live Server Extension
+# Install "Live Server" extension in VS Code
+
+## Optional Development Tools
+- Git (for version control)
+- VS Code or any modern code editor
+- Browser developer tools for debugging
+
+## System Requirements
+- Operating System: Windows, macOS, or Linux
+- RAM: 4GB minimum (8GB recommended)
+- Storage: 10MB for project files
+- Internet connection: Required for initial CDN loading
+
+## Security Considerations
+- All data stored locally in browser localStorage
+- No external API calls or data transmission
+- HTTPS recommended for production deployment
+- Regular browser cache clearing recommended
+
+## Performance Notes
+- Optimized for datasets up to 100 debts/goals
+- Chart rendering requires 2GB+ RAM for large datasets
+- localStorage limit: ~5-10MB per domain (varies by browser)
+
+## Installation Notes
+No package installation required - this is a client-side only application.
+All dependencies are loaded via CDN from reliable sources:
+- unpkg.com (React, Babel, Recharts)
+- tailwindcss.com (Tailwind CSS)
+
+## Compatibility Notes
+- Requires JavaScript enabled
+- LocalStorage must be enabled for data persistence
+- Modern CSS Grid and Flexbox support required
+- ES6+ features used (arrow functions, destructuring, etc.)
