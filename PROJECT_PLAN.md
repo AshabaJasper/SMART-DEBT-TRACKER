@@ -1,4 +1,4 @@
-# SMART Debt Tracker - Project Plan & Architecture
+loop# SMART Debt Tracker - Project Plan & Architecture
 
 ## 📋 Project Overview
 
